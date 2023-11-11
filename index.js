@@ -11,8 +11,8 @@ const handleMove = (e, element) => {
 	const middleX = left + width / 2;
 	const middleY = top + height / 2;
 
-	const offsetX = ((x - middleX) / width) * 25;
-	const offsetY = ((y - middleY) / height) * 25;
+	const offsetX = ((x - middleX) / width) * 30;
+	const offsetY = ((y - middleY) / height) * 30;
 
 	element.style.setProperty('--rotateX', offsetX + 'deg');
 	element.style.setProperty('--rotateY', -1 * offsetY + 'deg');
